@@ -1,13 +1,178 @@
 {
   "accessories.slot.tooltip.singular": "Слот: ",
   "accessories.slot.tooltip.plural": "Слоти: ",
+
   "accessories.cosmetic_slot.tooltip.singular": "Косметичний слот: ",
   "accessories.cosmetic_slot.tooltip.plural": "Косметичні слоти: ",
+
   "accessories.slot.any": "Будь-який",
   "accessories.slot.except": " крім ",
+
   "accessories.tooltip.attributes.any": "Коли споряджено:",
   "accessories.tooltip.attributes.slot": "Коли споряджено в %s:",
   "accessories.tooltip.currently_equipped_in": "Споряджено в: ",
+
+  "accessories.tooltip.equipment_reasoning": {"text": "Причина спорядження: ", "color": "gray"},
+  "accessories.tooltip.accessory_reasoning": {"text": "Причина аксесуара: ", "color": "gray"},
+
+  "accessories.tooltip.slot.invalid": [
+    { "text": "", "color": "red" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.slot.valid": [
+    { "text": "", "color": "blue" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.slot.irrelevant": [
+    { "text": "", "color": "yellow" },
+    { "index": 0 }
+  ],
+
+  "accessories.tooltip.extra_info": [
+    {"text": "Утримуйте ", "color": "gray"},
+    { "index": 0, "color": "white"},
+    {"text": ", щоб показати більше. ", "color": "gray"}
+  ],
+  "accessories.tooltip.extra_info.list.entry_separator": {
+    "text": ", ", "color": "gray"
+  },
+  "accessories.tooltip.extra_info.2_or_more": [
+    { "index": 0, "color": "white"},
+    " або ",
+    { "index": 1, "color": "white"}
+  ],
+
+
+
+  "accessories.tooltip.equipment_reasoning.list_entry.invalid": [
+    {"text": "", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "‐", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "(", "color": "gray"},
+    {"text": "❌", "color": "red"},
+    {"text": "):", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"}
+  ],
+  "accessories.tooltip.equipment_reasoning.list_entry.valid": [
+    {"text": "", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "‐", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "(", "color": "gray"},
+    {"text": "✔", "color": "green"},
+    {"text": "):", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"}
+  ],
+  "accessories.tooltip.equipment_reasoning.list_entry.irrelevant": [
+    {"text": "", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "‐", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"},
+    {"text": "(", "color": "gray"},
+    {"text": "", "color": "gray", "font": "accessories:one_space"},
+    {"text": "#", "color": "yellow"},
+    {"text": "", "color": "gray", "font": "accessories:one_space"},
+    {"text": "):", "color": "gray"},
+    {"text": "  ", "color": "gray", "font": "accessories:one_space"}
+  ],
+
+  "accessories.tooltip.equipment_reasoning.indent_entry": [
+    {"text": "      ", "color": "gray"},
+    {"text": "   ", "color": "gray", "font": "accessories:one_space"}
+  ],
+
+  "accessories.tooltip.list_entry": {"text": " ‐ ", "color": "gray"},
+  "accessories.tooltip.indent_entry": {"text": "   ", "color": "gray"},
+
+  "accessories.tooltip.validator.simplied_message.valid": {"text": "Може бути споряджено у слот.", "color": "gray"},
+  "accessories.tooltip.validator.simplied_message.invalid": {"text": "Не може бути споряджено у слот.", "color": "gray"},
+  "accessories.tooltip.validator.simplied_message.irrelevant": {"text": "Не стосується цього слота.", "color": "gray"},
+
+  "accessories.tooltip.validator.always_valid": {"text": "Будь-що поміститься у цей слот!", "color": "gray"},
+  "accessories.tooltip.validator.always_invalid": {"text": "Цей слот ніколи не зможе прийняти жоден аксесуар!", "color": "gray"},
+
+  "accessories.tooltip.validator.tag.simple.valid": {"text": "Дійсно для вказаної(их) групи(п).", "color": "gray"},
+  "accessories.tooltip.validator.tag.simple.invalid": {"text": "Недійсно для вказаної(их) групи(п).", "color": "gray"},
+
+  "accessories.tooltip.validator.tag.entry_separator": {
+    "text": ", ", "color": "gray"
+  },
+
+  "accessories.tooltip.validator.tag.advanced.valid.any": [
+    { "text": "Запис належить до однієї з груп: ", "color": "gray" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.validator.tag.advanced.valid.all": [
+    { "text": "Запис належить до всіх груп: ", "color": "gray" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.validator.tag.advanced.invalid.any": [
+    { "text": "Запис не належить до жодної з груп: ", "color": "gray" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.validator.tag.advanced.invalid.all": [
+    { "text": "Запис не належить до всіх груп: ", "color": "gray" },
+    { "index": 0 }
+  ],
+
+  "accessories.tooltip.validator.set.entry_separator": {
+    "text": ", ", "color": "gray"
+  },
+
+  "accessories.tooltip.validator.set.simple.valid": [
+    {"text": "Дійсно для вказаної ", "color": "gray"},
+    { "index": 0, "color": "gray"},
+    {"text": " групи.", "color": "gray"}
+  ],
+  "accessories.tooltip.validator.set.simple.invalid": [
+    {"text": "Недійсно для вказаної ", "color": "gray"},
+    { "index": 0, "color": "gray"},
+    {"text": " групи.", "color": "gray"}
+  ],
+
+  "accessories.tooltip.validator.set.advanced.valid": [
+    { "text": "Запис є одним із дійсних ", "color": "gray" },
+    { "index": 0, "color": "gray"},
+    { "text": ": ", "color": "gray" },
+    { "index": 1 }
+  ],
+  "accessories.tooltip.validator.set.advanced.invalid": [
+    { "text": "Запис не є жодним із дійсних ", "color": "gray" },
+    { "index": 0, "color": "gray"},
+    { "text": ": ", "color": "gray" },
+    { "index": 1 }
+  ],
+
+  "minecraft.entity_type.singular": "Сутність",
+  "minecraft.entity_type.plural": "Сутності",
+
+  "accessories.tooltip.validator.cursed": {"text": "Прив'язано до вас до самої смерті!", "color": "gray"},
+
+  "accessories.tooltip.validator.attribute.simple.include": {"text": "Містить атрибути для вказаного слота.", "color": "gray"},
+  "accessories.tooltip.validator.attribute.simple.excludes": {"text": "Не містить атрибутів для вказаного слота.", "color": "gray"},
+
+  "accessories.tooltip.validator.component.entry_separator": {
+    "text": ", ", "color": "gray"
+  },
+
+  "accessories.tooltip.validator.component.advanced.invalid": [
+    { "text": "Недійсно, оскільки це явно заборонено: ", "color": "gray" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.validator.component.advanced.valid": [
+    { "text": "Дійсно, оскільки це явно дозволено: ", "color": "gray" },
+    { "index": 0 }
+  ],
+  "accessories.tooltip.validator.component.advanced.irrelevant": [
+    { "text": "Не стосується, оскільки це не дозволено явно: ", "color": "gray" },
+    { "index": 0 }
+  ],
+
+  "accessories.tooltip.validator.component.simple.irrelevant": [
+    { "text": "Не стосується, оскільки це не дозволено явно.", "color": "gray" }
+  ],
+
   "accessories.slot.hat": "Капелюх",
   "accessories.slot.face": "Обличчя",
   "accessories.slot.cape": "Плащ",
@@ -20,41 +185,97 @@
   "accessories.slot.anklet": "Браслет",
   "accessories.slot.shoes": "Взуття",
   "accessories.slot.charm": "Амулет",
+
+  "tag.item.accessories.hat": "Капелюх",
+  "tag.item.accessories.face": "Обличчя",
+  "tag.item.accessories.cape": "Плащ",
+  "tag.item.accessories.necklace": "Намисто",
+  "tag.item.accessories.back": "Спина",
+  "tag.item.accessories.hand": "Рука",
+  "tag.item.accessories.ring": "Кільце",
+  "tag.item.accessories.wrist": "Зап'ястя",
+  "tag.item.accessories.belt": "Пояс",
+  "tag.item.accessories.anklet": "Браслет",
+  "tag.item.accessories.shoes": "Взуття",
+  "tag.item.accessories.charm": "Амулет",
+  "tag.item.accessories.any": "Будь-який",
+
   "accessories.slot.accessories.head": "Голова",
   "accessories.slot.accessories.chest": "Груди",
   "accessories.slot.accessories.legs": "Ноги",
-  "accessories.slot.accessories.feet": "Ступня",
+  "accessories.slot.accessories.feet": "Ступні",
   "accessories.slot.accessories.animal_body": "Тіло",
+
   "accessories.slot_group.misc": "Різне",
   "accessories.slot_group.head": "Голова",
   "accessories.slot_group.chest": "Груди",
   "accessories.slot_group.arm": "Руки",
   "accessories.slot_group.leg": "Ноги",
-  "accessories.slot_group.feet": "Ступня",
-  "accessories.slot_group.unsorted": "несортовано",
-  "accessories.key.category.accessories": "Accessories",
-  "argument.livingEntities.nonLiving": "Ця команда може впливати лише на живих сутностей, але наданий селектор уключає неживих сутностей",
+  "accessories.slot_group.feet": "Ступні",
+  "accessories.slot_group.unsorted": "Несортовано",
 
-  "gamerule.accessories.keepAccessoryInventory": "Зберігати аксесуари після смерти",
+  "key.category.accessories.main": "Accessories",
+  "accessories.key.open_accessories_screen": "Відкрити екран аксесуарів",
+  "accessories.key.open_others_accessories_screen": "Відкрити екран аксесуарів іншого гравця",
+
+  "accessories.commands.attribute.failed.modifier_already_present_itemstack": "Модифікатор %s вже присутній в атрибуті %s для стосу %s",
+
+  "accessories.commands.attribute.failed.no_modifier_itemstack": "Атрибут %s для стосу %s не має модифікатора %s",
+  "accessories.commands.attribute.modifier.add.success_itemstack": "Додано модифікатор %s до атрибута %s для стосу %s",
+  "accessories.commands.attribute.modifier.remove.success_itemstack": "Вилучено модифікатор %s з атрибута %s для стосу %s",
+  "accessories.commands.attribute.modifier.value.get.success_itemstack": "Значення модифікатора %s в атрибуті %s для стосу %s дорівнює %s",
+  "accessories.commands.attribute.value.get.success": "Значення атрибута %s для сутності %s дорівнює %s",
+  "accessories.commands.slot.value.get.success": "Значення слота %s для сутності %s дорівнює %s",
+
+  "accessories.commands.slot.modifier.clear.all.success": "Атрибути слота для всіх контейнерів було вилучено для сутності %s",
+
+  "accessories.commands.slot.modifier.clear.container.success": "Атрибути слота для %s було вилучено для сутності %s",
+
+  "accessories.argument.livingEntities.nonLiving": "Ця команда може впливати лише на живих сутностей, але наданий селектор включає неживих сутностей",
+
+  "accessories.commands.feature.toggle.failure" : "'%s' не відповідає жодній з перемикаємих функцій: %s",
+
+  "accessories.commands.feature.toggle.on" : "'%s' було ввімкнено!",
+  "accessories.commands.feature.toggle.off" : "'%s' було вимкнено!",
+
+  "accessories.commands.dump.failure" : "'%s' не відповідає жодному з дійсних типів для логування: %s",
+  "accessories.commands.dump.success" : "Дані '%s' були вивантажені у файл журналу!",
+
+  "accessories.commands.slot.modifier.addition" : "Атрибут '%s' було додано до слота `%s` для '%s'",
+
+  "accessories.commands.slot.modifier.removed.failure" : "Атрибут '%s' для слота '%s' не знайдено для '%s'!",
+  "accessories.commands.slot.modifier.removed.success" : "Атрибут '%s' вилучено зі слота '%s' для '%s'!",
+
+  "accessories.commands.nest.addition" : "Додано введений предмет до стосу в головній руці!",
+
+  "accessories.commands.slot.validation.added.valid" :     "'%s' додано як дійсний слот",
+  "accessories.commands.slot.validation.added.invalid" :   "'%s' додано як недійсний слот",
+  "accessories.commands.slot.validation.removed.valid" :   "'%s' вилучено як дійсний слот",
+  "accessories.commands.slot.validation.removed.invalid" : "'%s' вилучено як недійсний слот",
+
+  "gamerule.accessories.keepAccessoryInventory": "Зберігати інвентар аксесуарів",
 
   "#comment": "GUI Related Below",
 
-  "accessories.key.open_accessories_screen": "Відкрити екран аксесуарів",
   "accessories.slot.cosmetics.toggle.show": "Показати косметичні слоти",
   "accessories.slot.cosmetics.toggle.hide": "Приховати косметичні слоти",
+
   "accessories.display.toggle.show": "Показати аксесуар",
   "accessories.display.toggle.hide": "Приховати аксесуар",
+
   "accessories.lines.toggle.show": "Показати всі лінії",
   "accessories.lines.toggle.hide": "Приховати всі лінії",
+
   "accessories.unused_slots.toggle.show": "Показати невикористані слоти",
   "accessories.unused_slots.toggle.hide": "Приховати невикористані слоти",
+
   "accessories.slot_cosmetics.toggle.enabled": "Показати слоти аксесуарів",
   "accessories.slot_cosmetics.toggle.disabled": "Показати косметичні слоти",
-  "accessories.advanced_options.toggle.enabled": "❤",
-  "accessories.advanced_options.toggle.disabled": "⚗",
-  "accessories.advanced_options.toggle.enabled.tooltip": "Приховати додатковий екран налаштувань",
-  "accessories.advanced_options.toggle.disabled.tooltip": "Показати додатковий екран налаштувань",
-  "accessories.unused_slots.label": "Невикористані слоти:",
+
+  "accessories.advanced_options.toggle.enabled.tooltip": "Приховати налаштування екрана",
+  "accessories.advanced_options.toggle.disabled.tooltip": "Показати налаштування екрана",
+
+  "accessories.unused_slots.label": "Показувати невикористані слоти:",
   "accessories.unused_slots.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -71,9 +292,65 @@
   ],
   "accessories.unused_slots.toggle.enabled.tooltip": "Приховати всі невикористані слоти",
   "accessories.unused_slots.toggle.disabled.tooltip": "Показати всі невикористані слоти",
-  "accessories.column_amount_slider.label": "Кількість стовпця:",
-  "accessories.column_amount_slider.tooltip": "Повзунок, який використовується для налаштування кількости стовпців для макета аксесуарів",
-  "accessories.widget_type.label": "Варіант віджета:",
+
+  "accessories.column_amount.label": "Кількість стовпців аксесуарів:",
+  "accessories.column_amount.tooltip": "Налаштовує кількість стовпців для модуля аксесуарів",
+
+  "accessories.side_by_side_slots.label": "Режим перегляду косметичних слотів:",
+  "accessories.side_by_side_slots.toggle.enabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "O", "color": "#eab676"},
+    {"text": "]", "color": "gray"},
+    " перемикання"
+  ],
+  "accessories.side_by_side_slots.toggle.disabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "/", "color": "#1e81b0"},
+    {"text": "]", "color": "gray"},
+    " зміна"
+  ],
+  "accessories.side_by_side_slots.toggle.enabled.tooltip": "Натисніть, щоб перемикати слоти",
+  "accessories.side_by_side_slots.toggle.disabled.tooltip": "Натисніть, щоб показати або приховати косметичні слоти",
+
+  "accessories.side_by_side_entity.label": "Кількість переглядів сутності:",
+  "accessories.side_by_side_entity.toggle.enabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "||", "color": "#32a852"},
+    {"text": "]", "color": "gray"},
+    " подвійно"
+  ],
+  "accessories.side_by_side_entity.toggle.disabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "|", "color": "#32a852"},
+    {"text": "]", "color": "gray"},
+    " одинарно"
+  ],
+  "accessories.side_by_side_entity.toggle.enabled.tooltip": "Натисніть для перемикання на перегляд однієї сутності",
+  "accessories.side_by_side_entity.toggle.disabled.tooltip": "Натисніть для перемикання на подвійний перегляд сутності",
+
+  "accessories.entity_centered.label": "Центрування панелі сутності:",
+  "accessories.entity_centered.toggle.enabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "✔", "color": "#28FFBF"},
+    {"text": "]", "color": "gray"},
+    " увімкнено"
+  ],
+  "accessories.entity_centered.toggle.disabled": [
+    "",
+    {"text": "[", "color": "gray"},
+    {"text": "❌", "color": "#EB1D36"},
+    {"text": "]", "color": "gray"},
+    " вимкнено"
+  ],
+  "accessories.entity_centered.toggle.enabled.tooltip": "Дозволити зміщення сутності від центру",
+  "accessories.entity_centered.toggle.disabled.tooltip": "Зробити так, щоб сутність ЗАВЖДИ була близько або в центрі екрана",
+
+  "accessories.widget_type.label": "Варіант віджета аксесуарів:",
   "accessories.widget_type.paginated": [
     "",
     {"text": "[", "color": "gray"},
@@ -81,7 +358,6 @@
     {"text": "]", "color": "gray"},
     " сторінки"
   ],
-  "accessories.widget_type.paginated.tooltip": "Макет із розбиванням на сторінки для слотів аксесуарів",
   "accessories.widget_type.scrollable": [
     "",
     {"text": "[", "color": "gray"},
@@ -89,7 +365,10 @@
     {"text": "]", "color": "gray"},
     " прокручується"
   ],
-  "accessories.main_widget_position.label": "Позиція віджета:",
+  "accessories.widget_type.paginated.tooltip": "Використовує сторінки для навігації по слотам аксесуарів",
+  "accessories.widget_type.scrollable.tooltip": "Використовує прокручування для навігації по слотам аксесуарів",
+
+  "accessories.main_widget_position.label": "Позиція віджета аксесуарів:",
   "accessories.main_widget_position.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -104,15 +383,16 @@
     {"text": "]", "color": "gray"},
     " справа"
   ],
-  "accessories.main_widget_position.toggle.enabled.tooltip": "Переміщує віджет аксесуарів праворуч",
-  "accessories.main_widget_position.toggle.disabled.tooltip": "Переміщує віджет аксесуарів ліворуч",
-  "accessories.group_filter.label": "Фільтри групи:",
+  "accessories.main_widget_position.toggle.enabled.tooltip": "Перемістити віджет аксесуарів праворуч",
+  "accessories.main_widget_position.toggle.disabled.tooltip": "Перемістити віджет аксесуарів ліворуч",
+
+  "accessories.group_filter.label": "Віджет групового фільтра:",
   "accessories.group_filter.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
     {"text": "✔", "color": "#28FFBF"},
     {"text": "]", "color": "gray"},
-    " показато"
+    " показано"
   ],
   "accessories.group_filter.toggle.disabled": [
     "",
@@ -123,7 +403,8 @@
   ],
   "accessories.group_filter.toggle.enabled.tooltip": "Приховати віджет групового фільтра",
   "accessories.group_filter.toggle.disabled.tooltip": "Показати віджет групового фільтра",
-  "accessories.side_widget_position.label": "Бокове положення:",
+
+  "accessories.side_widget_position.label": "Позиція бокового віджета:",
   "accessories.side_widget_position.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -138,9 +419,10 @@
     {"text": "]", "color": "gray"},
     " розділено"
   ],
-  "accessories.side_widget_position.toggle.enabled.tooltip": "Переміщує боковий віджет навпроти віджета аксесуарів",
-  "accessories.side_widget_position.toggle.disabled.tooltip": "Переміщує боковий віджет навпроти віджета аксесуарів",
-  "accessories.dark_mode_toggle.label": "Режим теми:",
+  "accessories.side_widget_position.toggle.enabled.tooltip": "Перемістити боковий віджет до віджета аксесуарів",
+  "accessories.side_widget_position.toggle.disabled.tooltip": "Перемістити боковий віджет навпроти віджета аксесуарів",
+
+  "accessories.dark_mode_toggle.label": "Режим теми екрана:",
   "accessories.dark_mode_toggle.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -157,7 +439,8 @@
   ],
   "accessories.dark_mode_toggle.toggle.enabled.tooltip": "Змінити тему на світлий режим",
   "accessories.dark_mode_toggle.toggle.disabled.tooltip": "Змінити тему на темний режим",
-  "accessories.show_equipped_stack_slot_type.label": "Тип спорядження:",
+
+  "accessories.show_equipped_stack_slot_type.label": "Показувати тип спорядженого:",
   "accessories.show_equipped_stack_slot_type.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -172,9 +455,10 @@
     {"text": "]", "color": "gray"},
     " приховано"
   ],
-  "accessories.show_equipped_stack_slot_type.toggle.enabled.tooltip": "Приховати споряджений стіс тип слота",
-  "accessories.show_equipped_stack_slot_type.toggle.disabled.tooltip": "Показати споряджений стіс тип слота",
-  "accessories.entity_look_at_cursor.label": "Погляд на курсор:",
+  "accessories.show_equipped_stack_slot_type.toggle.enabled.tooltip": "Приховати тип слота спорядженого стосу",
+  "accessories.show_equipped_stack_slot_type.toggle.disabled.tooltip": "Показати тип слота спорядженого стосу",
+
+  "accessories.entity_look_at_cursor.label": "Сутність дивиться на мишу:",
   "accessories.entity_look_at_cursor.toggle.enabled": [
     "",
     {"text": "[", "color": "gray"},
@@ -191,46 +475,78 @@
   ],
   "accessories.entity_look_at_cursor.toggle.enabled.tooltip": "Вимкнути погляд на курсор",
   "accessories.entity_look_at_cursor.toggle.disabled.tooltip": "Увімкнути погляд на курсор",
-  "accessories.lines.toggle.enabled.tooltip": "Приховати показ усіх ліній",
-  "accessories.lines.toggle.disabled.tooltip": "Показати показ усіх ліній",
-  "accessories.crafting_grid.toggle.enabled": "☒",
-  "accessories.crafting_grid.toggle.disabled": "☐",
-  "accessories.crafting_grid.toggle.enabled.tooltip": "Приховати малу сітку майстрування",
-  "accessories.crafting_grid.toggle.disabled.tooltip": "Показати малу сітку майстрування",
-  "accessories.widget_type.scrollable.tooltip": "Прокручуваний макет для слотів аксесуарів",
+
+  "accessories.crafting_grid.toggle.enabled.tooltip": "Приховати сітку крафту",
+  "accessories.crafting_grid.toggle.disabled.tooltip": "Показати сітку крафту",
+
   "accessories.selection_screen.message": [
     "Нижче наведено набір параметрів екрана, які ви \n",
-    "можете вибрати в залежності від стилю \n",
-    "пакету модів або ваш стиль гри. \n\n",
-    "Зверніть увагу, що ви можете змінити це в \n",
-    "налаштування мода, якщо вказаний параметр не \n",
-    "на ваш смак."
+    "можете вибрати залежно від стилю модпаку \n",
+    "або вашого стилю гри. \n\n",
+    "Зверніть увагу, що ви можете змінити їх у \n",
+    "налаштуваннях Accessories, якщо цей параметр \n",
+    "вам не до вподоби."
   ],
-  "accessories.unique_slots.toggle.show": "Показати унікальні слоти",
-  "accessories.unique_slots.toggle.hide": "Приховати унікальні слоти",
+
   "accessories.back.screen": "На попередній екран",
   "accessories.open.screen": "Відкрити екран аксесуарів",
+
   "accessories.reset.group_filter": "Скинути групові фільтри",
 
   "#comment": "Config Related Below",
 
   "text.config.accessories.title": "Налаштування Accessories",
 
-  "text.config.accessories.option.useExperimentalCaching": "Експериментальне кешування",
+  "text.config.accessories.option.useExperimentalCaching": "Використовувати експериментальне кешування",
   "text.config.accessories.option.useExperimentalCaching.tooltip": [
     "Спроба кешувати різні пошуки стосів предметів\n",
-    "щоб бути більш продуктивним, але може спричинити проблеми."
+    "для кращої продуктивності, але може спричинити проблеми."
+  ],
+
+  "text.config.accessories.category.contentOptions": "Налаштування контенту",
+  "text.config.accessories.category.contentOptions.tooltip": [
+    "Містить налаштування, орієнтовані на контент, наприклад, екіпірування планера та тотема."
+  ],
+
+  "text.config.accessories.option.contentOptions.validGliderSlots": "Допустимі слоти для планера",
+  "text.config.accessories.option.contentOptions.validGliderSlots.tooltip": [
+    "Додає слоти, у які можна екіпірувати планер."
+  ],
+
+  "text.config.accessories.option.contentOptions.allowGliderEquip": "Дозволити екіпірувати планери",
+  "text.config.accessories.option.contentOptions.allowGliderEquip.tooltip": [
+    "Перемикає можливість екіпірувати планери в слоти аксесуарів."
+  ],
+
+  "text.config.accessories.option.contentOptions.validTotemSlots": "Допустимі слоти для тотема",
+  "text.config.accessories.option.contentOptions.validTotemSlots.tooltip": [
+    "Додає слоти, у які можна екіпірувати тотем."
+  ],
+
+  "text.config.accessories.option.contentOptions.allowTotemEquip": "Дозволити екіпірувати тотеми",
+  "text.config.accessories.option.contentOptions.allowTotemEquip.tooltip": [
+    "Перемикає можливість екіпірувати тотеми в слоти аксесуарів."
+  ],
+
+  "text.config.accessories.option.contentOptions.validBannerSlots": "Допустимі слоти для стяга",
+  "text.config.accessories.option.contentOptions.validBannerSlots.tooltip": [
+    "Додає слоти, у які можна екіпірувати стяг."
+  ],
+
+  "text.config.accessories.option.contentOptions.allowBannerEquip": "Дозволити екіпірувати стяги",
+  "text.config.accessories.option.contentOptions.allowBannerEquip.tooltip": [
+    "Перемикає можливість екіпірувати стяги в слоти аксесуарів."
   ],
 
   "text.config.accessories.category.clientOptions": "Налаштування клієнта",
   "text.config.accessories.category.clientOptions.tooltip": [
-    "Містить більше загальних налаштувань на стороні клієнта для промальовування або введення гравцем."
+    "Містить загальні налаштування клієнта для рендеру або вводу гравця."
   ],
 
-  "text.config.accessories.option.clientOptions.forceNullRenderReplacement": "Примусова заміна порожнього промальовування",
+  "text.config.accessories.option.clientOptions.forceNullRenderReplacement": "Примусова заміна порожнього рендеру",
   "text.config.accessories.option.clientOptions.forceNullRenderReplacement.tooltip": [
-    "Примушує будь-яке зареєстроване промальовування, яке виявилося не\n",
-    "відтвореним, щоб натомість використовувати відтворення усталено."
+    "Примушує будь-який зареєстрований рендер, який виявився\n",
+    "неробочим, використовувати стандартний рендер."
   ],
 
   "text.config.accessories.option.clientOptions.disableEmptySlotScreenError": "Вимкнути помилку порожнього аксесуара",
@@ -239,120 +555,147 @@
     "екран аксесуарів, але використаних слотів не знайдено."
   ],
 
-  "text.config.accessories.option.clientOptions.showCosmeticAccessories": "Показати косметичне промальовування предмета",
+  "text.config.accessories.option.clientOptions.showCosmeticAccessories": "Показувати рендер косметичних предметів",
   "text.config.accessories.option.clientOptions.showCosmeticAccessories.tooltip": [
-    "Умикає/вимикає відтворення варіантів косметичних предметів, якщо є."
+    "Вмикає/вимикає рендер варіантів косметичних предметів, якщо вони екіпіровані."
   ],
 
-  "text.config.accessories.option.clientOptions.disabledDefaultRenders": "Вимкнути усталене промальовування",
+  "text.config.accessories.option.clientOptions.disabledDefaultRenders": "Вимкнені стандартні рендери",
   "text.config.accessories.option.clientOptions.disabledDefaultRenders.tooltip": [
-    "Вимикає включене усталене промальовування предметів, якщо воно використовується."
+    "Вимикає включений стандартний рендер предметів, якщо він використовується."
   ],
 
-  "text.config.accessories.option.clientOptions.equipControl": "Режим швидкого ручного спорядження",
+  "text.config.accessories.option.clientOptions.equipControl": "Режим швидкого екіпірування з руки",
   "text.config.accessories.option.clientOptions.equipControl.tooltip": [
-    "Змінює режим, який використовується для швидкого спорядження стоса з вашої руки."
+    "Змінює режим, який використовується для швидкого екіпірування стосу з вашої руки."
   ],
 
-  "text.config.accessories.enum.playerEquipControl.must_crouch": "Потрібен Крауч",
+  "text.config.accessories.enum.playerEquipControl.must_crouch": "Потребує присідання",
   "text.config.accessories.enum.playerEquipControl.must_not_crouch": "Без присідання",
   "text.config.accessories.enum.playerEquipControl.disabled": "Вимкнено",
 
+  "text.config.accessories.option.screenOptions.prioritizeCreativeScreen": "Пріоритет відкриття творчого екрана",
+  "text.config.accessories.option.screenOptions.prioritizeCreativeScreen.tooltip": [
+    "Спробує відкрити екран творчого режиму замість екрана\n",
+    "аксесуарів, перебуваючи в творчому режимі."
+  ],
+
   "text.config.accessories.category.screenOptions": "Налаштування екрана",
   "text.config.accessories.category.screenOptions.tooltip": [
-    "Містить усі налаштування екрана для всіх варіантів і введене зміщення кнопки."
+    "Містить усі налаштування екрана для всіх варіантів і введені зміщення кнопок."
   ],
 
   "text.config.accessories.option.screenOptions.selectedScreenType": "Вибраний тип екрана",
   "text.config.accessories.option.screenOptions.selectedScreenType.tooltip": [
-    "Використовується для налаштування того, який екран використовуватиметься, жоден не\n",
-    "принесе підказку для вибору користувача."
+    "Використовується для налаштування того, який екран використовуватиметься, інакше\n",
+    "з'явиться підказка для вибору користувачем."
   ],
 
-  "text.config.accessories.enum.screenType.none": "Не визначений",
+  "text.config.accessories.enum.screenType.none": "Невирішено",
   "text.config.accessories.enum.screenType.original": "Оригінальний",
   "text.config.accessories.enum.screenType.experimental_v1": "Експериментальний",
 
-  "text.config.accessories.option.screenOptions.showUnusedSlots": "Показати невикористані слоти",
-  "text.config.accessories.option.screenOptions.showUnusedSlots.tooltip": "Вимикає фільтрацію невикористаних слотів",
+  "text.config.accessories.section.accessories_screen": "Специфічні налаштування екрана аксесуарів",
+
+  "text.config.accessories.option.screenOptions.defaultValues": "Глобальні налаштування екрана",
+  "text.config.accessories.option.screenOptions.defaultValues.tooltip": [
+    "Використовується для налаштування СТАНДАРТНИХ параметрів екрана, як-от кількість стовпців,\n",
+    "тема тощо. Це також можна налаштувати в грі для кожного користувача."
+  ],
+
+  "text.config.accessories.option.screenOptions.backButtonClosesScreen": "Закривати екран замість повернення до попереднього",
+  "text.config.accessories.option.screenOptions.backButtonClosesScreen.tooltip": "Спробує закрити екран замість того, щоб повертатися до попереднього екрана інвентарю, якщо це можливо.",
+
+  "text.config.accessories.option.screenOptions.keybindIgnoresOtherTargets": "Клавіша екрана ігнорує інші цілі",
+  "text.config.accessories.option.screenOptions.keybindIgnoresOtherTargets.tooltip": "Корисно, якщо ви хочете, щоб клавіша ігнорувала інші знайдені цілі, наприклад, тварину, на якій ви їдете.",
+
+  "text.config.accessories.option.screenOptions.showUnusedSlots": "Показувати невикористані слоти",
+  "text.config.accessories.option.screenOptions.showUnusedSlots.tooltip": "Перемикає фільтрацію невикористаних слотів.",
 
   "text.config.accessories.option.screenOptions.allowSlotScrolling": "Дозволити прокручування слотів екрана",
   "text.config.accessories.option.screenOptions.allowSlotScrolling.tooltip": [
-    "Корисно, якщо цей мод дозволяє прокручувати стіс,\n",
+    "Корисно, якщо цей мод дозволяє прокручувати стоси,\n",
     "що призводить до проблем під час перегляду аксесуарів."
   ],
 
-  "text.config.accessories.option.screenOptions.showEquippedStackSlotType": "Показати тип слота споряджених стосів",
+  "text.config.accessories.option.screenOptions.showEquippedStackSlotType": "Показувати тип слота екіпірованих стосів",
   "text.config.accessories.option.screenOptions.showEquippedStackSlotType.tooltip": [
-    "Показує заданий тип слота, у якому встановлено цей стіс у підказці."
+    "Показує тип слота, у якому встановлено цей стіс, у його підказці."
   ],
 
-  "text.config.accessories.option.screenOptions.entityLooksAtMouseCursor": "Змусити сутності слідувати за курсором",
+  "text.config.accessories.option.screenOptions.entityLooksAtMouseCursor": "Змусити сутність слідувати за курсором миші",
   "text.config.accessories.option.screenOptions.entityLooksAtMouseCursor.tooltip": [
-    "Якщо ввімкнено, сутності слідують за курсором,\n",
-    "в іншому випадку це дозволяє ручне обертання сутности."
+    "Якщо ввімкнено, змушує сутність слідувати за курсором миші,\n",
+    "інакше це дозволяє обертати сутність вручну."
   ],
 
-  "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid": "Дозволити сітку майстрування на боковій панелі",
+  "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid": "Дозволити сітку крафту на бічній панелі",
   "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid.tooltip": [
     "Якщо групові фільтри відсутні, буде спроба розмістити\n",
-    "сітку майстрування на боковій панелі, а не внизу."
+    "сітку крафту на бічній панелі, а не внизу."
   ],
 
-  "text.config.accessories.section.button_offsets": "Уведені зміщення кнопки",
+  "text.config.accessories.section.button_offsets": "Введені зміщення кнопок",
 
-  "text.config.accessories.option.screenOptions.inventoryButtonOffset": "Зміщення кнопки інвентаризації",
+  "text.config.accessories.option.screenOptions.inventoryButtonOffset": "Зміщення кнопки інвентарю",
 
-  "text.config.accessories.option.screenOptions.inventoryButtonOffset.x": "Зміщення X",
-  "text.config.accessories.option.screenOptions.inventoryButtonOffset.y": "Зміщення Y",
+  "text.config.accessories.option.screenOptions.menuButtonInjections": "Кнопки на екрані",
 
-  "text.config.accessories.option.screenOptions.creativeInventoryButtonOffset": "Зміщення кнопки творчого інвентарю",
+  "text.config.accessories.option.screenOptions.menuButtonInjections.menuType": "ID меню",
+  "text.config.accessories.option.screenOptions.menuButtonInjections.xOffset": "Зміщення по X",
+  "text.config.accessories.option.screenOptions.menuButtonInjections.yOffset": "Зміщення по Y",
+  "text.config.accessories.option.screenOptions.menuButtonInjections.mini": "Мініверсія",
 
-  "text.config.accessories.option.screenOptions.creativeInventoryButtonOffset.x": "Зміщення X",
-  "text.config.accessories.option.screenOptions.creativeInventoryButtonOffset.y": "Зміщення Y",
+  "text.config.accessories.option.screenOptions.alwaysShowCraftingGrid": "Завжди показувати сітку крафту",
+  "text.config.accessories.option.screenOptions.alwaysShowCraftingGrid.tooltip": [
+    "Видалить кнопку перемикання для сітки крафту та завжди показуватиме її на експериментальному екрані."
+  ],
 
-  "text.config.accessories.section.experimental": "Експериментальний екран",
+  "text.config.accessories.option.screenOptions.equipCheckTooltipType": "Тип перевірки підказки екіпірування",
+  "text.config.accessories.option.screenOptions.equipCheckTooltipType.tooltip": [
+    "Змінює обсяг прихованої інформації про те, чи можна екіпірувати аксесуар у певний слот, чи зняти з нього."
+  ],
 
-  "text.config.accessories.option.screenOptions.isDarkMode": "Використовувати темну тему",
-  "text.config.accessories.option.screenOptions.isDarkMode.tooltip": [
-    "Змінює тему для експериментального екрана на темний режим."
+  "text.config.accessories.option.screenOptions.showSlotDarkeningEffect": "Показувати ефект затемнення слота",
+  "text.config.accessories.option.screenOptions.showSlotDarkeningEffect.tooltip": [
+    "Перемикає відображення затемнення слота під час екіпірування або зняття предметів на екрані аксесуарів."
   ],
 
   "text.config.accessories.section.legacy": "Оригінальний екран",
 
-  "text.config.accessories.option.screenOptions.showGroupTabs": "Показати вкладки групи швидкого пошуку",
+  "text.config.accessories.option.screenOptions.showGroupTabs": "Показувати вкладки груп швидкого пошуку",
   "text.config.accessories.option.screenOptions.showGroupTabs.tooltip": [
-    "Перемикає вкладки групи на початковому екрані між показом або прихованням."
+    "Перемикає відображення або приховування вкладок груп на оригінальному екрані."
   ],
 
-  "text.config.accessories.section.hover": "Ефекти під час наведення",
+  "text.config.accessories.section.hover": "Ефекти при наведенні",
 
-  "text.config.accessories.category.screenOptions.hoveredOptions": "Налаштування наведення",
+  "text.config.accessories.category.screenOptions.hoveredOptions": "Налаштування при наведенні",
   "text.config.accessories.category.screenOptions.hoveredOptions.tooltip": [
-    "Налаштування керування ефектами промальовування наведення курсору."
+    "Налаштування для керування ефектами рендеру при наведенні курсору."
   ],
 
-  "text.config.accessories.option.screenOptions.hoveredOptions.brightenHovered": "Яскравіше наведення",
-  "text.config.accessories.option.screenOptions.hoveredOptions.cycleBrightness": "Яскравість циклу",
+  "text.config.accessories.option.screenOptions.hoveredOptions.brightenHovered": "Освітлювати при наведенні",
+  "text.config.accessories.option.screenOptions.hoveredOptions.cycleBrightness": "Циклічна яскравість",
 
-  "text.config.accessories.option.screenOptions.hoveredOptions.line": "Намалювати лінію",
+  "text.config.accessories.option.screenOptions.hoveredOptions.line": "Малювати лінію",
 
   "text.config.accessories.option.screenOptions.hoveredOptions.clickbait": "Клікбейт",
 
-  "text.config.accessories.category.screenOptions.unHoveredOptions": "Налаштування не наведення",
+  "text.config.accessories.category.screenOptions.unHoveredOptions": "Налаштування без наведення",
   "text.config.accessories.category.screenOptions.unHoveredOptions.tooltip": [
-    "Налаштування керування ефектами промальовування без наведення курсору."
+    "Налаштування для керування ефектами рендеру без наведення курсору."
   ],
 
-  "text.config.accessories.option.screenOptions.unHoveredOptions.renderUnHovered": "Промальовування не наведення",
-  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenUnHovered": "Темніше не наведення",
-  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenedBrightness": "Затемнена яскравість",
-  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenedOpacity": "Затемнена непрозорість",
+  "text.config.accessories.option.screenOptions.unHoveredOptions.renderUnHovered": "Рендер без наведення",
+  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenUnHovered": "Затемнювати без наведення",
+  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenedBrightness": "Яскравість затемнення",
+  "text.config.accessories.option.screenOptions.unHoveredOptions.darkenedOpacity": "Непрозорість затемнення",
 
-  "text.config.accessories.option.disabledDefaultRenders": "Вимкнені засоби промальовування усталено",
+  "text.config.accessories.option.disabledDefaultRenders": "Вимкнені стандартні рендери",
   "text.config.accessories.option.disabledDefaultRenders.tooltip": [
-    "Корисно вимкнути промальовування усталено для певного слота\n",
-    "для промальовування блоків і/або предметів."
+    "Корисно для вимкнення стандартного рендеру для певного слота,\n",
+    "зокрема для рендеру блоків та/або предметів."
   ],
 
   "text.config.accessories.option.clientOptions.disabledDefaultRenders.slotType": "Слот",
@@ -362,15 +705,18 @@
   "text.config.accessories.enum.targetType.block": "Блок",
   "text.config.accessories.enum.targetType.all": "Усі",
 
-  "text.config.accessories.option.modifiers": "Модифікатори кількости слотів",
+  "text.config.accessories.option.modifiers": "Модифікатори кількості слотів",
   "text.config.accessories.option.modifiers.tooltip": [
-    "Корисно додавати значення зсуву до заданого типу слота без\n",
-    "потреби пакетів даних, оскільки він дозволяє як позитивні, так і\n",
+    "Корисно для додавання значень зміщення до певного типу слота без\n",
+    "потреби у датапаках, оскільки це дозволяє як позитивні, так і\n",
     "негативні значення зміщення."
   ],
 
   "text.config.accessories.option.modifiers.slotType": "Слот",
   "text.config.accessories.option.modifiers.amount": "Зміщення",
 
-  "modmenu.descriptionTranslation.accessories": "Додає систему аксесуарів для Minecraft"
+  "text.config.accessories.enum.tooltipInfoType.all": "Усі",
+  "text.config.accessories.enum.tooltipInfoType.advanced": "Розширені",
+  "text.config.accessories.enum.tooltipInfoType.basic": "Базові",
+  "text.config.accessories.enum.tooltipInfoType.disabled": "Вимкнено"
 }
